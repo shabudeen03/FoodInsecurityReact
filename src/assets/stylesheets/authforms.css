@@ -1,0 +1,92 @@
+.auth_text {
+    margin-top: 7%;
+}
+
+.auth_form_wrapper {
+    text-align: center;
+}
+
+.auth_form {
+    border: solid;
+    display: inline-block;
+    border-radius: 3%;
+    border-width: 1px;
+    padding: 0.5% 3%;
+    text-align: center;
+    font-size: 25px;
+    width: 25%;
+}
+
+#fname, #lname, #uname, #email, #cpass, #repass  {
+    float: left;
+}
+
+.auth_form_labels {
+    font-weight: bolder;
+    padding-left: 1%;
+}
+
+.register_form_names {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.auth_input {
+    padding: 3px;
+    font-size: 20px;
+    border-radius: 7px;
+    margin: 5px 0;
+}
+
+.auth_form_username {
+    margin-bottom: 10px;
+}
+
+#uname, #passwd {
+    width: 60%;
+    float: left;
+}
+
+.auth_form_cred_field {
+    display: flex;
+    flex-direction: column;
+}
+
+.cancel_btn, .submit_btn {
+    font-size: 20px;
+    padding: 4px 7px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+.cancel_btn {
+    border: 3px solid grey;
+    background-color: white;
+    color: grey;
+}
+
+.cancel_btn:hover {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+.submit_btn {
+    border: 3px solid grey;
+    background-color: grey;
+    color: white;   
+    font-weight: bolder;
+}
+
+.submit_btn:hover {
+    background-color: white;
+    color: grey;
+    cursor: pointer;
+}
+
+label {
+    cursor: text;
+}
